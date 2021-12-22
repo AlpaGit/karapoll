@@ -1,0 +1,23 @@
+{
+    "name": "Karapoll - Karafun Poll Extension",
+    "description": "Create a strawpoll from your favorite songs on Karafun.fr",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background":{
+        "service_worker": "background.js"
+    },
+    "action": {},
+    "content_scripts": [
+        {
+          "matches": ["https://www.karafun.fr/karaoke/*"],
+          "js": ["content-script.js"]
+        }
+    ],
+    "icons":
+    {
+        "16": "icons/16.png",
+        "48": "icons/48.png",
+        "128": "icons/128.png"
+    }
+  }
+  
