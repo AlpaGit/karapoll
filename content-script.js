@@ -37,6 +37,10 @@ function createPoll(anwsers){
     }
 }
 (function() {
+    if(window.location.hash != "#favorites"){
+        return;
+    }
+    
     var box = document.createElement("div");
     box.style.position = "fixed";
     box.style.width = "120px";
