@@ -27,4 +27,6 @@ Download the latest code as .zip [here](https://github.com/AlpaGit/karapoll/rele
 ## Step 5
 - Open https://www.karafun.fr/karaoke/#favorites and be sure to be connected to your account
 
-And have fun !
+## Step 6
+- Have fun !
+![](https://i.gyazo.com/73a26752a750ca0cf7315d676f150aa6.png)
